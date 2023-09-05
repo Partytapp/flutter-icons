@@ -1,7 +1,7 @@
-import 'package:flutter_icons/flutter_icons.dart';
+import 'package:flutter_icons/src/flutter_icons.dart';
 
 import 'flutter_icon_data.dart';
-
+/*
 class FlutterIconsHelper {
   static getIconData(iconFamily, iconName) {
     final glyphMapName = iconFamily.split(new RegExp(r"(?<=[a-z])(?=[A-Z])"));
@@ -33,8 +33,6 @@ class FlutterIconsHelper {
     print('codePoint -> ' + codePoint.toString());
 
     switch (iconFamily) {
-      case 'AntDesign':
-        return FlutterIconData.antDesign(codePoint);
       case 'AntDesign-Filled':
         return FlutterIconData.antDesignFilled(codePoint);
       case 'AntDesign-Outlined':
@@ -136,3 +134,4 @@ class FlutterIconsHelper {
     return false;
   }
 }
+*/

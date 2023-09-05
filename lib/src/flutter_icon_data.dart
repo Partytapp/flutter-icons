@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-
+/*
 /// It is used to generate IconData under different icon sets
 class FlutterIconData extends IconData {
   const FlutterIconData(int codePoint, String fontFamily) : super(codePoint, fontFamily: fontFamily, fontPackage: 'flutter_icons');
 
-  const FlutterIconData.antDesign(int codePoint) : this(codePoint, 'AntDesign');
 
-  const FlutterIconData.antDesignFilled(int codePoint) : this(codePoint, 'AntDesign-Filled');
+
+
 
   const FlutterIconData.antDesignOutlined(int codePoint) : this(codePoint, 'AntDesign-Outlined');
 
@@ -78,7 +78,7 @@ class FlutterIconData extends IconData {
 
   const FlutterIconData.zocial(int codePoint) : this(codePoint, 'Zocial');
 }
-
+*/
 class IconDataDuotone extends IconData {
   final IconData? secondary;
 

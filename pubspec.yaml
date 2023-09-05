@@ -1,18 +1,17 @@
 name: flutter_icons
-description: Customizable Icons for Flutter，you can use with over 15K+ icons in your flutter project
-version: 4.2.0-nullsafety.0
-author: Sascha Heim<developers@think-big-company.com>
-homepage: https://github.com/ThinkBIG-Company/flutter-icons.git
+description: Customizable Icons for Flutter，you can use with over 20K+ icons in your flutter project
+version: 5.0.0
+homepage: https://github.com/Partytapp/flutter-icons.git
 
 environment:
-  sdk: ">=2.12.0-0 <3.0.0"
+  sdk: ">=2.17.0-0 <3.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
 
 dev_dependencies:
-  recase: ^4.0.0-nullsafety
+  recase: ^4.1.0
   flutter_test:
     sdk: flutter
   version: ^2.0.0
