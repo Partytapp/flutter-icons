@@ -1,6 +1,5 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 
 import 'flutter_icon_data.dart';
 
@@ -85,13 +84,13 @@ class MaterialIcon extends StatelessWidget {
   ///
   /// The [size] and [color] default to the value given by the current [IconTheme].
   const MaterialIcon(
-      this.icon, {
-        Key? key,
-        this.size,
-        this.color,
-        this.semanticLabel,
-        this.textDirection,
-      })  : assert(icon != null),
+    this.icon, {
+    Key? key,
+    this.size,
+    this.color,
+    this.semanticLabel,
+    this.textDirection,
+  })  : assert(icon != null),
         super(key: key);
 
   /// The icon to display. The available icons are described in
@@ -147,8 +146,7 @@ class MaterialIcon extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     assert(this.textDirection != null || debugCheckHasDirectionality(context));
-    final TextDirection textDirection =
-        this.textDirection ?? Directionality.of(context);
+    final TextDirection textDirection = this.textDirection ?? Directionality.of(context);
 
     final IconThemeData iconTheme = IconTheme.of(context);
 
@@ -169,8 +167,7 @@ class MaterialIcon extends StatelessWidget {
 
     Widget iconWidget = RichText(
       overflow: TextOverflow.visible, // Never clip.
-      textDirection:
-      textDirection, // Since we already fetched it for the assert...
+      textDirection: textDirection, // Since we already fetched it for the assert...
       text: TextSpan(
         text: String.fromCharCode(icon!.codePoint),
         style: TextStyle(
@@ -209,8 +206,7 @@ class MaterialIcon extends StatelessWidget {
   @override
   void debugFillProperties(DiagnosticPropertiesBuilder properties) {
     super.debugFillProperties(properties);
-    properties.add(
-        IconDataProperty('icon', icon, ifNull: '<empty>', showName: false));
+    properties.add(IconDataProperty('icon', icon, ifNull: '<empty>', showName: false));
     properties.add(DoubleProperty('size', size, defaultValue: null));
     properties.add(ColorProperty('color', color, defaultValue: null));
   }

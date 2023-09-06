@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 /*
 /// It is used to generate IconData under different icon sets
 class FlutterIconData extends IconData {
