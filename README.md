@@ -1,4 +1,4 @@
-# flutter_icons 4.2.0-nullsafety.0
+# flutter_icons 5.0.0
 
 Customizable Icons for Flutter,Inspired by [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons)
 
